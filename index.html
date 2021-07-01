@@ -44,7 +44,7 @@
                             </a>
                         </li>
                         <li class="nav__item">
-                            <a href="#education" class="nav__link">
+                            <a href="#workandeducation" class="nav__link">
                                 <i class="uil uil-book nav__icon"></i> Education
                             </a>
                         </li>
@@ -169,7 +169,7 @@
                 <div class="skills__container container grid">
                     <div>
                         <!--==================== SKILLS 1 ====================-->
-                        <div class="skills__content">
+                        <div class="skills__content skills__open">
                             <div class="skills__header">
                                 <i class="uil uil-servers skills__icon"></i>
                                 
@@ -225,7 +225,7 @@
                         </div>
 
                         <!--==================== SKILLS 2 ====================-->
-                        <div class="skills__content">
+                        <div class="skills__content skills__close">
                             <div class="skills__header">
                                 <i class="uil uil-brackets-curly skills__icon"></i>
                                 
@@ -288,15 +288,239 @@
             </section>
 
             <!--==================== QUALIFICATION ====================-->
-            <section class="qualification section">
+            <section class="qualification section" id="workandeducation">
+                <h2 class="section__title">Education & Work</h2>
+                <span class="section__subtitle">My Software Engineering Journey so far...</span>
 
+                <div class="qualification__container container">
+                    <div class="qualification__tabs">
+                        <div class="qualification__button button--flex qualification__active" data-target='#education'>
+                            <i class="uil uil-graduation-cap qualification__icon"></i>
+                            Education
+                        </div>
+
+                        <div class="qualification__button button--flex" data-target="#work">
+                            <i class="uil uil-briefcase-alt qualification__icon"></i>
+                            Work Experience
+                        </div>
+                    </div>
+
+                    <div class="qualification__sections">
+                        <!--==================== QUALIFICATION CONTENT 1 ====================-->
+                        <div class="qualification__content qualification__active" data-content id="education">
+                           <!--==================== QUALIFICATION 1 ====================--> 
+                            <div class="qualification__data">
+                                <div>
+                                    <h3 class="qualification__title">Software Engineering MSc</h3>
+                                    <span class="qualification__subtitle">Wales - University of South Wales Trinity Saint David</span>
+                                    <div class="qualification__calendar">
+                                        <i class="uil uil-calendar-alt"></i>
+                                        2020 - 2022
+                                    </div>
+                                </div>
+
+                                <div>
+                                    <span class="qualification__rounder"></span>
+                                    <span class="qualification__line"></span>
+                                </div>
+                            </div>
+
+                            <!--==================== QUALIFICATION 2 ====================--> 
+                            <div class="qualification__data">
+                                <div></div>
+                                
+                                <div>
+                                    <span class="qualification__rounder"></span>
+                                    <span class="qualification__line"></span>
+                                </div>
+
+                                <div>
+                                    <h3 class="qualification__title">Psychology BSc</h3>
+                                    <span class="qualification__subtitle">Wales - Cardiff Metropolitan University</span>
+                                    <div class="qualification__calendar">
+                                        <i class="uil uil-calendar-alt"></i>
+                                        2014 - 2018
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!--==================== QUALIFICATION CONTENT 2 ====================-->
+                        <div class="qualification__content" data-content id="work">
+                            <!--==================== QUALIFICATION 1 ====================--> 
+                             <div class="qualification__data">
+                                 <div>
+                                     <h3 class="qualification__title">Trainee Software Engineer</h3>
+                                     <span class="qualification__subtitle">DVLA - Wales</span>
+                                     <div class="qualification__calendar">
+                                         <i class="uil uil-calendar-alt"></i>
+                                         2020 - 2022
+                                     </div>
+                                 </div>
+ 
+                                 <div>
+                                     <span class="qualification__rounder"></span>
+                                     <span class="qualification__line"></span>
+                                 </div>
+                             </div>
+ 
+                             <!--==================== QUALIFICATION 2 ====================--> 
+                             <div class="qualification__data">
+                                 <div></div>
+                                 
+                                 <div>
+                                     <span class="qualification__rounder"></span>
+                                     <span class="qualification__line"></span>
+                                 </div>
+ 
+                                 <div>
+                                     <h3 class="qualification__title">Site Intelligence Specialist</h3>
+                                     <span class="qualification__subtitle">PRA Health Sciences - Wales</span>
+                                     <div class="qualification__calendar">
+                                         <i class="uil uil-calendar-alt"></i>
+                                         2018 - 2020
+                                     </div>
+                                 </div>
+ 
+                                 
+                             </div>
+                         </div>
+
+                    </div>
+                </div>
 
             </section>
 
             <!--==================== SERVICES ====================-->
-            <section class="services section" id="services">
-                
+            <section class="services section" id="projects">
+                <h2 class="section__title">Recent Projects</h2>
+                <span class="section__subtitle">Projects I have complete recently or am still working on</span>
 
+                <div class="services__container container grid">
+                    <!--==================== SERVICES 1 ====================-->
+                    <div class="services__content">
+                        <div>
+                            <i class="uil uil-grid services__icon"></i>
+                            <h3 class="services__title">Reddit Clone <br> Project </h3>
+                        </div>
+
+                        <span class="button button--flex button--small button--link services__button">
+                            View More
+                            <i class="uil uil-arrow-right button__icon"></i>
+                        </span>
+
+                        <div class="services__modal">
+                            <div class="services__modal-content">
+                                <h4 class="services__modal-title">Reddit Clone <br> Project </h4>
+                                <i class="uil uil-times services__modal-close"></i>
+
+                                <ul class="services__modal-services grid">
+                                    <li class="services__modal-service">
+                                        <i class="uil uil-check-circle services__modal-icon"></i>
+                                        <p>I developed a Reddit clone using Ruby on Rails</p>
+                                    </li>
+
+                                    <li class="services__modal-service">
+                                        <i class="uil uil-check-circle services__modal-icon"></i>
+                                        <p>Lorem Ipsum</p>
+                                    </li>
+
+                                    <li class="services__modal-service">
+                                        <i class="uil uil-check-circle services__modal-icon"></i>
+                                        <p>Lorem Ipsum</p>
+                                    </li>
+
+                                    <li class="services__modal-service">
+                                        <i class="uil uil-check-circle services__modal-icon"></i>
+                                        <p>Lorem Ipsum</p>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <!--==================== SERVICES 2 ====================-->
+                    <div class="services__content">
+                        <div>
+                            <i class="uil uil-map-pin-alt services__icon"></i>
+                            <h3 class="services__title">Snake Video Game <br> Made in JavaScript </h3>
+                        </div>
+
+                        <span class="button button--flex button--small button--link services__button">
+                            View More
+                            <i class="uil uil-arrow-right button__icon"></i>
+                        </span>
+
+                        <div class="services__modal">
+                            <div class="services__modal-content">
+                                <h4 class="services__modal-title">Snake Video Game <br> Made in JavaScript </h4>
+                                <i class="uil uil-times services__modal-close"></i>
+
+                                <ul class="services__modal-services grid">
+                                    <li class="services__modal-service">
+                                        <i class="uil uil-check-circle services__modal-icon"></i>
+                                        <p>Lorem Ipsum dfhfh fhfhf fhf</p>
+                                    </li>
+
+                                    <li class="services__modal-service">
+                                        <i class="uil uil-check-circle services__modal-icon"></i>
+                                        <p>Lorem Ipsum</p>
+                                    </li>
+
+                                    <li class="services__modal-service">
+                                        <i class="uil uil-check-circle services__modal-icon"></i>
+                                        <p>Lorem Ipsum</p>
+                                    </li>
+
+                                    <li class="services__modal-service">
+                                        <i class="uil uil-check-circle services__modal-icon"></i>
+                                        <p>Lorem Ipsum</p>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <!--==================== SERVICES 3 ====================-->
+                    <div class="services__content">
+                        <div>
+                            <i class="uil uil-basketball services__icon"></i>
+                            <h3 class="services__title">Pong Video Game <br> Made in Python </h3>
+                        </div>
+
+                        <span class="button button--flex button--small button--link services__button">
+                            View More
+                            <i class="uil uil-arrow-right button__icon"></i>
+                        </span>
+
+                        <div class="services__modal">
+                            <div class="services__modal-content">
+                                <h4 class="services__modal-title">Pong Video Game <br> Made in Python </h4>
+                                <i class="uil uil-times services__modal-close"></i>
+
+                                <ul class="services__modal-services grid">
+                                    <li class="services__modal-service">
+                                        <i class="uil uil-check-circle services__modal-icon"></i>
+                                        <p>Lorem Ipsum gfgfg fgfgf hhth dgdg hthgh</p>
+                                    </li>
+
+                                    <li class="services__modal-service">
+                                        <i class="uil uil-check-circle services__modal-icon"></i>
+                                        <p>Lorem Ipsum</p>
+                                    </li>
+
+                                    <li class="services__modal-service">
+                                        <i class="uil uil-check-circle services__modal-icon"></i>
+                                        <p>Lorem Ipsum</p>
+                                    </li>
+
+                                    <li class="services__modal-service">
+                                        <i class="uil uil-check-circle services__modal-icon"></i>
+                                        <p>Lorem Ipsum</p>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </section>
 
             <!--==================== PORTFOLIO ====================-->
