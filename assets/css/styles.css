@@ -555,6 +555,18 @@ img{
     width: 40%;
 }
 
+.skills__aws{
+    width: 10%;
+}
+
+.skills__kubernetes{
+    width: 5%;
+}
+
+.skills__docker{
+    width: 15%;
+}
+
 .skills__close .skills__list{
     height: 0;
     overflow: hidden;
